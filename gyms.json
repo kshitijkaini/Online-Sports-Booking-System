@@ -1,0 +1,40 @@
+[
+  {
+    "name": "Sweats and muscles",
+    "imageurls": ["images/g1.jpg", "images/g2.jpg", "images/g3.jpg"],
+    "pricepermonth": 2000,
+    "location": "Lalitpur",
+    "phone": 9812345678,
+    "currentgymbookings": [],
+    "description": "Sweats and muscles is the perfect destination for fitness enthusiasts in Lalitpur. Our premier gym center boasts top-notch facilities and friendly staff to ensure a memorable workout experience for all our guests. Whether you're a beginner or an advanced athlete, our trainers are here to help you achieve your fitness goals."
+  },
+  {
+    "name": "Bhairav Fitness",
+    "imageurls": ["images/g4.jpg", "images/g5.jpg", "images/g6.jpg"],
+    "pricepermonth": 2500,
+    "location": "Lalitpur",
+    "phone": 9812345678,
+    "currentgymbookings": [],
+    "description": "Bhairav Fitness is the perfect place to achieve your fitness goals in Lalitpur. Our state-of-the-art gym facility boasts top-notch amenities and a welcoming atmosphere, making it the perfect destination for a refreshing workout. Our experienced trainers are here to help you every step of the way, whether you're looking to lose weight, build muscle, or improve your overall fitness."
+  },
+
+  {
+    "name": "Dasrath Gym",
+    "imageurls": ["images/g7.jpg", "images/g8.jpg", "images/g9.jpg"],
+    "pricepermonth": 3000,
+    "location": "Lalitpur",
+    "phone": 9812345678,
+    "currentgymbookings": [],
+    "description": "Dasrath Gym offers a serene oasis in the heart of Lalitpur. Our state-of-the-art facility boasts top-notch amenities and a welcoming atmosphere, making it the perfect destination for a refreshing workout. At an affordable price, our friendly staff ensures a memorable experience for all our guests. Our experienced trainers are here to help you achieve your fitness goals, whether you're a beginner or an advanced athlete."
+  },
+
+  {
+    "name": "The Workout Station",
+    "imageurls": ["images/g10.jpg", "images/g11.jpg", "images/g12.jpg"],
+    "price": 3500,
+    "location": "Lalitpur",
+    "phone": 9812345678,
+    "currentgymbookings": [],
+    "description": "The Workout Station is the perfect destination for fitness enthusiasts in Lalitpur. Our state-of-the-art gym center boasts top-notch facilities and friendly staff to ensure a memorable workout experience for all our guests. Whether you're looking to lose weight, build muscle, or improve your overall fitness, our experienced trainers are here to help you achieve your goals."
+  }
+]

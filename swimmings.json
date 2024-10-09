@@ -1,0 +1,48 @@
+[
+  {
+    "name": "Thunderbolt Swimming Pool",
+    "imageurls": ["images/pool1.jpg", "images/pool2.jpg", "images/pool3.jpg"],
+    "price": 600,
+    "location": "Lalitpur",
+    "capacity": "50 people",
+    "phone": 9812345678,
+    "currentswimmingbookings": [],
+    "description": "Thunderbolt Swimming Pool is a premier swimming pool center in the Lalitpur area with top-notch facilities and friendly staff to make your experience enjoyable and memorable."
+  },
+  {
+    "name": "Satdobato swimming pool",
+    "imageurls": ["images/pool4.jpg", "images/pool5.jpg", "images/pool6.jpg"],
+    "price": 200,
+    "location": "Lalitpur",
+    "capacity": "200 people",
+    "phone": 9812345678,
+    "currentswimmingbookings": [],
+    "description": "Satdobato Swimming Pool is the perfect destination for a refreshing swim at an affordable price. Located in the heart of Lalitpur, our premier facility boasts top-notch amenities and friendly staff to ensure a memorable experience for all our guests."
+  },
+
+  {
+    "name": "Refresh swimming pool",
+    "imageurls": ["images/pool7.jpg", "images/pool8.jpg", "images/pool9.jpg"],
+    "price": 400,
+    "location": "Lalitpur",
+    "capacity": "200 people",
+    "phone": 9812345678,
+    "currentswimmingbookings": [],
+    "description": "Refresh Swimming Pool offers a serene oasis in the heart of Lalitpur. Our state-of-the-art facility boasts top-notch amenities and a welcoming atmosphere, making it the perfect destination for a refreshing swim or a relaxing day by the pool. At an affordable price, our friendly staff ensures a memorable experience for all our guests."
+  },
+
+  {
+    "name": "Sampang swimming pool",
+    "imageurls": [
+      "images/pool10.jpg",
+      "images/pool11.jpg",
+      "images/pool12.jpg"
+    ],
+    "price": 400,
+    "location": "Lalitpur",
+    "capacity": "100 people",
+    "phone": 9812345678,
+    "currentswimmingbookings": [],
+    "description": "Sampang Swimming Pool offers a serene oasis in the heart of Lalitpur. Our state-of-the-art facility boasts top-notch amenities and a welcoming atmosphere, making it the perfect destination for a refreshing swim or a relaxing day by the pool. At an affordable price, our friendly staff ensures a memorable experience for all our guests."
+  }
+]

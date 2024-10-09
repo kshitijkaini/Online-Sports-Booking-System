@@ -1,0 +1,76 @@
+[
+  {
+    "name": "Thunderbolt Futsal lado",
+    "imageurls": [
+      "images/futsal1.jpg",
+      "images/futsal2.jpg",
+      "images/futsal3.jpg"
+    ],
+    "priceperhour": 2500,
+    "location": "Lalitpur",
+    "gamemode": "5v5",
+    "phone": 9812345678,
+    "currentfutsalbookings": [],
+    "description": "Thunderbolt Futsal is a premier futsal center in the Lalitpur area with top-notch facilities and friendly staff to make your experience enjoyable and memorable."
+  },
+
+  {
+    "name": "Momentum Futsal",
+    "imageurls": [
+      "images/futsal5.jpg",
+      "images/futsal6.jpg",
+      "images/futsal7.jpg"
+    ],
+    "priceperhour": 1800,
+    "location": "Kathmandu",
+    "gamemode": "5v5",
+    "phone": 9854321098,
+    "currentfutsalbookings": [],
+    "description": "Momentum Futsal offers a great playing environment with high-quality futsal pitches and competitive pricing, making it the go-to spot for futsal enthusiasts in Kathmandu."
+  },
+
+  {
+    "name": "Fusion Futsal",
+    "imageurls": [
+      "images/futsal3.jpg",
+      "images/futsal8.jpg",
+      "images/futsal9.jpg"
+    ],
+    "priceperhour": 2200,
+    "location": "Bhaktapur",
+    "gamemode": "5v5",
+    "phone": 9865432109,
+    "currentfutsalbookings": [],
+    "description": "Fusion Futsal is the perfect blend of quality and affordability, offering top-class facilities at reasonable rates. Located in the heart of Bhaktapur, it's easily accessible to anyone looking for a great futsal experience."
+  },
+
+  {
+    "name": "Skyline Futsal",
+    "imageurls": [
+      "images/futsal10.jpg",
+      "images/futsal11.jpg",
+      "images/futsal12.jpg"
+    ],
+    "priceperhour": 1500,
+    "location": "Kathmandu",
+    "gamemode": "5v5",
+    "phone": 9841234567,
+    "currentfutsalbookings": [],
+    "description": "Skyline Futsal is a top-tier futsal center located in the heart of Kathmandu. With state-of-the-art facilities and excellent customer service, it's the perfect place for any football enthusiast to enjoy the beautiful game."
+  },
+
+  {
+    "name": "Nakhipot Futsal",
+    "imageurls": [
+      "images/futsal13.jpg",
+      "images/futsal4.jpg",
+      "images/futsal15.jpg"
+    ],
+    "priceperhour": 2000,
+    "location": "Kathmandu",
+    "gamemode": "5v5",
+    "phone": 9841234567,
+    "currentfutsalbookings": [],
+    "description": "Nakhipot Futsal is a top-tier futsal center located in the heart of Kathmandu. With state-of-the-art facilities and excellent customer service, it's the perfect place for any football enthusiast to enjoy the beautiful game."
+  }
+]

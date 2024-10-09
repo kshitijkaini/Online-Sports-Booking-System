@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- leaflet css -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+    integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+  <!-- leaflet geolocate -->
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.79.0/dist/L.Control.Locate.min.css" />
+  <style>
+    #map {
+      width: 100%;
+      height: 100vh;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="map"></div>
+
+</body>
+
+</html>
+<!-- leaflet js -->
+<script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+  integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+<!-- leaflet geplocate -->
+<script src="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.79.0/dist/L.Control.Locate.min.js"
+  charset="utf-8"></script>
+
+<script>
+  // map initialization
+  var map = L.map('map').setView([27.655806, 85.320833], 15);
+  // osm layer
+  var osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+  });
+  osm.addTo(map);
+  L.control.locate().addTo(map);
+
+  //add marker
+  //current location
+  var marker1 = L.marker([27.652985, 85.320263], {
+    title: "this is your location"
+  }).addTo(map).bindPopup("<a href='http://192.168.0.193:5501/forms.html'>Active futsal</a>").openPopup().on('click', function () {
+    window.open("http://192.168.0.193:5501/forms.html");
+  });
+
+
+  // bindPopup("<a href='http://192.168.0.193:5501/index.html'>Go to example.com</a>");
+
+
+
+
+
+  //futsal02
+  var marker2 = L.marker([27.655944, 85.318611], {
+    title: "this is your location"
+  }).addTo(map).bindPopup("<a href='http://192.168.0.193:5501/forms.html'>saukesh futsal</a>").openPopup().on('click', function () {
+    window.open("http://192.168.0.193:5501/forms.html");
+  });
+
+
+  //futsal03
+  var marker3 = L.marker([27.656055, 85.325793], {
+    title: "this is your location"
+  }).addTo(map).bindPopup("<a href='http://192.168.139.1:5501/forms.html'>lama futsal</a>").openPopup().on('click', function () {
+    window.open("http://192.168.0.193:5501/forms.html");
+  });
+
+  //your location
+
+  var marker4 = L.marker([27.655826, 85.320846], {
+    title: "this is your location"
+  }).addTo(map).bindPopup("<a>your location</a>").openPopup().on('click', function () {
+    window.open("http://192.168.0.193:5501/forms.html");
+  });
+
+  var marker = L.circle([27.655826, 85.320846], 500).addTo(map).bindPopup("<a>your location</a>").openPopup().on('click', function () {
+    window.open("http://192.168.0.193:5501/forms.html");
+  });
+
+
+
+
+</script>
