@@ -1,5 +1,4 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import "./App.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
@@ -16,7 +15,7 @@ import Profilescreen from "./screens/Profilescreen";
 import BusinessScreen from "./screens/RegisterBusinessScreen";
 import LoginBusinessScreen from "./screens/LoginBusinessScreen";
 import BadmintonScreen from "./screens/BadmintonScreen";
-//imp booking import
+//booking import
 import Book from "./screens/BookingScreen";
 import Admins from "./screens/Admin/Admins"
 import Adduser from "./screens/Admin/Adduser";
