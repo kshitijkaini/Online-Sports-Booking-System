@@ -12,12 +12,12 @@ const app = express();
 
 const dbConfig = require("./db");
 const futsalRoute = require("./routes/futsalRoute");
-const swimmingRoute = require("./routes/swimmingRoute");
-const gymRoute = require("./routes/gymRoute");
+// const swimmingRoute = require("./routes/swimmingRoute");
+// const gymRoute = require("./routes/gymRoute");
 const usersRoute = require("./routes/usersRoute");
-const futsalbookingRoute = require("./routes/futsalbookingRoute");
-const gymbookingRoute = require("./routes/gymbookingRoute");
-const swimmingbookingRoute = require("./routes/swimmingbookingRoute");
+// const futsalbookingRoute = require("./routes/futsalbookingRoute");
+// const gymbookingRoute = require("./routes/gymbookingRoute");
+// const swimmingbookingRoute = require("./routes/swimmingbookingRoute");
 
 
 app.use(express.json());
@@ -27,12 +27,12 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 
 app.use("/api/futsals", futsalRoute);    
-app.use("/api/swimmings", swimmingRoute);
-app.use("/api/gyms", gymRoute);
+// app.use("/api/swimmings", swimmingRoute);
+// app.use("/api/gyms", gymRoute);
 app.use("/api/users", usersRoute);
-app.use("/api/futsalbookings", futsalbookingRoute);
-app.use("/api/gymbookings", gymbookingRoute);
-app.use("/api/swimmingbookings", swimmingbookingRoute);
+// app.use("/api/futsalbookings", futsalbookingRoute);
+// app.use("/api/gymbookings", gymbookingRoute);
+// app.use("/api/swimmingbookings", swimmingbookingRoute);
 
 app.use("/images",express.static("./images"));
 
@@ -45,7 +45,6 @@ app.get('/endpoint', (req, res) => {
    
     res.json(jsonData);
   });
-
 
 
 const port = process.env.PORT || 5000; // or any other available port
